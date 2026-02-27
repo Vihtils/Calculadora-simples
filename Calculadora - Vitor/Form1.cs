@@ -55,29 +55,6 @@ namespace Calculadora___Vitor
             int result = num1 + num2;
 
             label2.Text = string.Format("{0} + {1} = {2}", num1, num2, num1 + num2);
-
-            //OUTRAS CONVERSÕES
-            //double V = double.parse(text.box1.Text); //Conversão de string para string
-            //ou double V = Convert.ToDouble(text.box1.Text); 
-            // bool R = bool.parse(text.box1.Texe); //Conversão de boolean para string
-            // OU bool R = Convert.ToBoolean(text.box1.Text)
-            // char L = char.parse(text.box1.Text); // conversão de char para string
-            // OU char L = Convert.ToChar(text.box1.Text)
-
-            //OPERADORES ARITMÉTICOS
-            // + Adição;
-            // - subtração;
-            // * multiplicação;
-            // % resto da divisão;
-            // / divisão;
-
-            //OPERADORES RELACIONAIS
-            // > maior que
-            // < menor que
-            // >= maior ou igual
-            // <= menor ou igual
-            // == igual a
-            // != diferente de 
         }
 
         private void label1_Click(object sender, EventArgs e)
